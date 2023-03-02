@@ -14,6 +14,7 @@
 		90D717FB29B117D700298C7F /* MusicByLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D717FA29B117D700298C7F /* MusicByLocationTests.swift */; };
 		90D7180529B117D700298C7F /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7180429B117D700298C7F /* MusicByLocationUITests.swift */; };
 		90D7180729B117D700298C7F /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7180629B117D700298C7F /* MusicByLocationUITestsLaunchTests.swift */; };
+		90D7181429B1192700298C7F /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7181329B1192700298C7F /* LocationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		90D7180029B117D700298C7F /* MusicByLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicByLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D7180429B117D700298C7F /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		90D7180629B117D700298C7F /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90D7181329B1192700298C7F /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				90D717EB29B117D600298C7F /* ContentView.swift */,
 				90D717ED29B117D700298C7F /* Assets.xcassets */,
 				90D717EF29B117D700298C7F /* Preview Content */,
+				90D7181329B1192700298C7F /* LocationHandler.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D7181429B1192700298C7F /* LocationHandler.swift in Sources */,
 				90D717EC29B117D600298C7F /* ContentView.swift in Sources */,
 				90D717EA29B117D600298C7F /* MusicByLocationApp.swift in Sources */,
 			);
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = 38UA2JBJ6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find your favorite tunes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_TEAM = 38UA2JBJ6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find your favorite tunes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
